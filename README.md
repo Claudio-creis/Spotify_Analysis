@@ -94,7 +94,7 @@ Analysis of the most streamed music in the US using Spotify API data. Tracks wer
 
 ## Output
 
-Relevant plots are annotated with song count. Genres, tempos, and keys reduced to dominant segments to avoid dimensional bloat.
+Relevant plots are annotated with song counts. Genres, tempos, and keys reduced to dominant segments to avoid dimensional bloat.
 
 ## Author
 
