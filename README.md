@@ -1,4 +1,4 @@
-# US Spotify Streaming Analysis
+# USA Spotify Streaming Analysis
 
 ## Summary
 
@@ -44,7 +44,50 @@ Analysis of the most streamed music in the US using Spotify API data. Tracks wer
 - Distribution visualizations: bar charts, heatmaps
 - Temporal tracking of genre popularity evolution
 
-## Observations
+### Observations
+
+## Overall Trends
+- **Average popularity**: 75.79  
+- **Hip hop and reggaeton** tracks have an average popularity **2.8% higher than pop**  
+- **Track length**: Mean = 3.49 min, Median = 3.41 min  
+- **Tempo (BPM)**: Mean = 121.4, Median = 120.0  
+- **Most common release day**: **Friday (579 songs)** — 465 more than the next most common, **Thursday**
+
+---
+
+## Genre and Collaborations
+- Roughly **40% of top songs involve collaborations**
+- **Average popularity with collaborators**: 76.07  
+- **Without collaborators**: 75.6  
+- **EDM (100%)** and **Rock (90%)** tracks predominantly feature solo artists, suggesting more defined individual styles (note: limited sample of top tracks only)  
+- **Pop** follows with 65% solo tracks, indicating strong individual artist presence  
+- **Hip hop** shows balance: ~50.5% of songs are solo  
+- **Reggaeton** is heavily collaborative: only **27.5%** of songs are solo among the 8 most prominent artists  
+  - _Possible reason: newer genre, cultural norms, slower average tempo_
+
+---
+
+## Tempo and Key
+- The five most common keys: **0, 1, 5, 8, 11**  
+- These dominate in tempos above **70 BPM**
+- **Keys 1 and 5** are most frequent in top tracks
+
+---
+
+## Release Date and Weekday
+- **August** is the peak release month (113 songs) and has the **highest average popularity** (marginally)
+- **March**: Best performance for **Friday releases** (high count and high popularity)
+- **November**: Inverse trend — fewer non-Friday releases, yet they outperform Friday ones in average popularity
+- **1970–1980**: Friday was the dominant release day among top artists
+- **1981–2003** (excluding 1984): Majority of top tracks released on non-Fridays
+- In recent years: Volume of Friday releases has increased and popularity is balanced, but **Friday releases dominate in quantity**
+
+---
+
+## Shortcomings
+- Further analysis could compare **independent vs. signed artists** in terms of release strategy and timing. 
+- Larger datasets could shed more light into other parameters such as length and audio features
+
 
 
 
