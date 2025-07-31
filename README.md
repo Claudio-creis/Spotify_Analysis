@@ -52,6 +52,7 @@ Analysis of the most streamed music in the US using Spotify API data. Tracks wer
 - **Track length**: Mean = 3.49 min, Median = 3.41 min  
 - **Tempo (BPM)**: Mean = 121.4, Median = 120.0  
 - **Most common release day**: **Friday (579 songs)** — 465 more than the next most common, **Thursday**
+- There is a strong and statistically significant positive correlation between artist popularity and track popularity (r = 0.52), which aligns with expectations. Additionally, track duration shows a moderate, statistically significant influence on danceability (r = 0.20), suggesting that shorter or longer songs may affect perceived rhythm or movement potential. Notably, duration also correlates significantly with artist popularity, further indicating structural differences in tracks by more prominent artists.
 
 ---
 
