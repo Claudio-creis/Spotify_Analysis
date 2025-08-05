@@ -17,6 +17,7 @@ Analysis of the most streamed music in the US using Spotify API data. Tracks wer
 - Spotify Web API: Used to retrieve track metadata and audio features
 - Additional parsing of collaborators and genre strings required due to nested or stringified list structures
 - https://www.kaggle.com/datasets/solomonameh/spotify-music-dataset
+- https://github.com/adashofdata/taylor_swift_data/blob/main/Taylor_Swift_Spotify/Taylor_Swift_Get_Spotify_Metadata.ipynb
 
 ## Processing Steps
 
